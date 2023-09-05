@@ -28,6 +28,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🐄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vds-sy-8G8">
+                                <rect key="frame" x="104" y="324.66666666666669" width="185" height="203.00000000000006"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="170"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -35,7 +41,9 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="xru-V2-pty" secondAttribute="bottom" constant="596" id="1Tl-Zl-PeV"/>
                             <constraint firstItem="xru-V2-pty" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2T5-sD-CNJ"/>
                             <constraint firstItem="Sef-bD-VP6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4SY-h8-TgN"/>
+                            <constraint firstItem="Vds-sy-8G8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FkZ-Lt-vBm"/>
                             <constraint firstItem="xru-V2-pty" firstAttribute="top" secondItem="Sef-bD-VP6" secondAttribute="bottom" constant="8" id="fVO-f5-Eq9"/>
+                            <constraint firstItem="Vds-sy-8G8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sds-Ab-ueX"/>
                             <constraint firstItem="xru-V2-pty" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="153.66666666666666" id="xoi-po-sEf"/>
                         </constraints>
                     </view>
